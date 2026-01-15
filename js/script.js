@@ -7,7 +7,7 @@ const message = document.getElementById("message");
 const submitBtn = document.querySelector(".btn");
 
 // Creo il countdown
-let timeLeft = 4;
+let timeLeft = 31;
 const intervalId = setInterval(function () {
   countdown.innerText = --timeLeft;
   // A timeLeft <= 0:
